@@ -28,33 +28,39 @@
 
     </head>
     <body class="fade-in">
-    <div class="bg">
+    
+    <!-- LANDING PAGE BG WRAPPER -->    
+    <div id="bg">
         <!-- <div class="bg" src="images/bg.jpg"> -->
         <div class="title">
             <h1>Rapid Traverse</h1>
         </div>
 
+        <!-- NAVICON SLIDE-IN MENU -->
         <div class="menu">
             <ul>
+                <li><a class="slide-1" href="#bg">home</a></li>
                 <li><a class="slide-1" href="#music-link">Music</a></li>
-                <li><a class="slide-1" href="index.html">About</a></li>
-                <li><a class="slide-1" href="index.html">Contact</a></li>
-                <li><a class="slide-1" href="index.html">Inspiration</a></li>
-                <li><a class="slide-1" href="index.html">Soundcloud</a></li>
+                <li><a class="slide-1" href="#contact-link">Contact</a></li>
+                <li><a class="slide-1" href="#inspiration-link">Inspiration</a></li>
+                <li><a class="slide-1" href="https://soundcloud.com/rapid-traverse">Soundcloud</a></li>
             </ul>
         </div>
 
-        <div id="navicon">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- NAVICON -->
+        <div class="container">    
+            <div id="navicon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
 
+        <!-- NAV FOR DESKTOP -->
         <nav class="nav">
             <ul>
                 <li class="main slide-1"><a href="#music-link">Music</a></li>
-                <li class="main slide-2"><a href="index.html">About</a></li>
                 <li class="main slide-3"><a href="index.html">Contact</a></li>
                 <li class="main slide-4"><a href="index.html">Inspiration</a></li>
                 <li class="main slide-5"><a href="index.html">Soundcloud</a></li>
@@ -62,12 +68,102 @@
         </nav>
     </div>    
     
-
+    <!-- MUSIC SECTION -->
     <section id="music-link">
-        <h2 class="music-title">music</h2>
+        <h2 class="section-title container">music</h2>
+            <h3 class="song-title">17</h3>
+                <div class="audio">    
+                    <audio controls="mp3">
+                        <source src="audio/17.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            <h3 class="song-title">RSN-SS</h3>
+                <div class="audio">    
+                    <audio controls="mp3">
+                        <source src="audio/RSN-SS.mp3" type="audio/mpeg">
+                    </audio>
+                </div> 
+            <h3 class="song-title">u-10</h3>
+                <div class="audio">    
+                    <audio controls="mp3">
+                        <source src="audio/U-10.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            <h3 class="song-title">trickle</h3>
+                <div class="audio">    
+                    <audio controls="mp3">
+                        <source src="audio/Trickle.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            <h3 class="song-title">gulch grandure</h3>
+                <div class="audio">    
+                    <audio controls="mp3">
+                        <source src="audio/ABL F.mp3" type="audio/mpeg">
+                    </audio>
+                </div>                 
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-link">
+        <h2 class="section-title container">contact</h2>
+        <div class="image-wrapper">
+            <a href="https://www.facebook.com/"><img src="images/fb-icon.png"></a>
+            <a href="https://soundcloud.com/rapid-traverse"><img src="images/sc-icon.png"></a>
+            <a href="https://twitter.com/RapidTraverse"><img src="images/tw-icon.png"></a>
+            <a href="https://www.youtube.com/"><img src="images/yt-icon.png"></a>
+        </div>
+    </section>
+
+    <!-- INSPIRATION SECTION -->
+    <section id="inspiration-link">
+        <h2 class="section-title container">inspiration</h2>
+        <div class="audio">    
+            <h3 class="insp-song-title">Chrome Sparks - Hawaii (remix)</h3>                   
+                    <audio controls="mp3">
+                        <source src="audio/hawaii.mp3" type="audio/mpeg">
+                    </audio>   
+            <h3 class="insp-song-title">bibio - you won't remember</h3>    
+                    <audio controls="mp3">
+                        <source src="audio/you-wont-remember.mp3" type="audio/mpeg">
+                    </audio>
+
+            <h3 class="insp-song-title">Washed out - a dedication</h3>    
+                    <audio controls="mp3">
+                        <source src="audio/a-dedication.mp3" type="audio/mpeg">
+                    </audio>
+            <h3 class="insp-song-title">Groundislava - Jasper's Song II</h3>    
+                    <audio controls="mp3">
+                        <source src="audio/jaspers-song-II.mp3" type="audio/mpeg">
+                    </audio>
+            <h3 class="insp-song-title">Alvvays - Ones Who Love You</h3>                  
+                    <audio controls="mp3">
+                        <source src="audio/ones-who-love-you.mp3" type="audio/mpeg">
+                    </audio>
+        </div>
     </section>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
